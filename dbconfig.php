@@ -4,7 +4,7 @@
 */
 $host = 'localhost'; //執行DB Server 的主機
 $user = 'jc'; //登入DB用的DB 帳號
-$pass = '12345'; //登入DB用的DB 密碼
+$pass = '12345'; //登入DB用的DB 密碼 passward
 $dbName = 'test'; //使用的資料庫名稱
 /* $db 即為未來執行SQL指令所使用的物件 */
 $db = mysqli_connect($host, $user, $pass, $dbName) or die('Error with MySQL connection'); //跟MyMSQL連線並登入
